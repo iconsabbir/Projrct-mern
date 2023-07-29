@@ -542,3 +542,130 @@ color: var(--text-color);
     background-color: #fff;
     color: #6c5ce7;
 }
+
+
+/*-----------------Shop PAge----------*/
+
+
+.section-2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+.img-log{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+.img-log::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(225deg,#e91e63,#03a9f4);
+    z-index: 2;
+    mix-blend-mode: screen;
+}
+.img-log img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* log-conten */
+
+.log-conten{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+}
+.frombox{
+    width: 50%;
+}
+.frombox h2{
+    color: #607d8b;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-bottom: 4px solid #ff4584;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.inputBox{
+    margin-bottom: 20px;
+}
+.inputBox span{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #607d8b;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.inputBox input{
+    width: 100%;
+    padding: 10px 22px;
+    background: transparent;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: 1px solid #607d8b;
+    outline: none;
+    font-weight: 400;
+    border-radius: 30px;
+}
+.inputBox input[type="submit"]{
+
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    background: #ff4585;
+    cursor: pointer;
+
+}
+.inputBox input[type="submit"]:hover{
+    background-color: #f53677;
+}
+.rember{
+    margin-bottom: 10px;
+    color: #607d8b;
+    font-size: 14px;
+    font-weight: 400;
+}
+.scl-icon ul{ 
+display: flex;
+letter-spacing: 20px;
+font-size: 46px;
+margin-top: 20px;
+text-align: center;
+ justify-content: center;
+
+}
+.log-medias{
+    margin-top: 80px;
+}
+.log-medias {
+    color: #8395a7;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.fb-icon{
+    
+}
+.ins-icon{
+    color: #F302D3;
+}
+.pren-icon{
+    color: red;
+}
