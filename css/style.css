@@ -864,6 +864,7 @@ text-align: center;
     width: 100%;
     height: 100%;
 }
+/*----------------page contact Responsive-----*/
 
 @media(max-width:480px){
     .contact-in:nth-child(1){
