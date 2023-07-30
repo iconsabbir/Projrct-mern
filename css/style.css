@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: 'Poppins', sans-serif;
 }
 :root{
     --main-color: #fd4646;
@@ -696,4 +696,200 @@ text-align: center;
     margin: 50px;
 }
 
+}
+
+
+
+
+
+/*========= page Contact ==========*/
+
+
+.contact-sections{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+.contact-wrap{
+    width: 80%;
+    height:;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-in{
+    padding: 40px 30px;
+}
+.contact-in:nth-child(1){
+    flex: 30%;
+    background: #6c5ce7;
+    color: #fff;
+    background-image: cover;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+.contact-in:nth-child(2){
+    flex: 45%;
+    background-color: #ff4584;
+}
+.contact-in:nth-child(3){
+    flex: 25%;
+    padding: 0;
+}
+.contact-in h1{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+}
+.contact-in h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 14px;
+
+
+}
+.contact-in h2 i{
+    font-size: 16px;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    margin-right: 10px;
+    line-height: 40px;
+    border-radius: 50px;
+    color: #000;
+    text-align: center;
+
+}
+.contact-in p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+.fb-ins-tw{
+    margin-top: 60px;
+}
+.fb-ins-tw ul{
+    font-size: 30px;
+    display: flex;
+   
+    padding: 0;
+    
+    
+}
+
+.fb-ins-tw li a{
+   
+    padding: 10px 12px;
+
+}
+.fb-ins-tw i{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    color: #555;
+    transition: all 0.4s ease-in-out;
+}
+.fb-inf:hover{
+    color: #03a9f4;
+    background-color: #222222;
+}
+.ins-inf:hover{
+    color: #F302D3;
+    background-color: #222222;
+}
+.twr-inf:hover{
+    color: #03a9f4;
+    background-color: #222222;
+}
+
+
+.contact-in form{
+    width: 100%;
+    height: auto;
+}
+.contact-in-input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    outline: none;
+    padding-left: 5px;
+    background: transparent;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+
+}
+.contact-in-input::placeholder{
+    color: #fff;
+}
+.contact-in-textarea{
+    width: 100%;
+    height: 140px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    outline: none;
+    padding-left: 5px;
+    padding-top: 5px;
+    background: transparent;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.contact-in-textarea::placeholder{
+    color: #fff;
+}
+.contact-in-btn{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.contact-in iframe{
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width:480px){
+    .contact-in:nth-child(1){
+        flex: 50%;
+      
+    }
+    .contact-in:nth-child(2){
+        flex: 50%;
+        
+    }
+    .contact-in:nth-child(3){
+        flex: 100%;
+       
+    }
+}
+@media(max-width:360px){
+    .contact-in:nth-child(1){
+        flex: 50%;
+      
+    }
+    .contact-in:nth-child(2){
+        flex: 50%;
+        
+    }
+    .contact-in:nth-child(3){
+        flex: 100%;
+       
+    }
 }
