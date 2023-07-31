@@ -1,0 +1,92 @@
+@media(max-width:991px){
+
+
+    .coza-header{
+        
+    }
+    .coza-menu{
+        display: none;
+        margin-top: 0;
+
+
+    }
+.coza-logo{
+    
+}
+.coza-shop{
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px;
+   
+}
+.serch-1{
+    padding: 0;
+   
+}
+.shop-1{
+    padding: 0;
+    
+}
+#nav-bars{
+    display: block;
+}
+
+
+.spring-conten{
+    margin-bottom: 30px;
+}
+
+
+.fast-content{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.fast-artekal{
+    padding: 20px 0;
+}
+
+.about-story{
+    margin-bottom: 40px;
+}
+
+.about-story2{
+    margin-top: 54px;
+  }
+
+
+}
+
+@media(max-width:576px){
+
+    .slid-content{
+    
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%,-50%);
+    }
+
+    .slid-content h1{
+        font-size: 24px;
+        font-family: 'Fjalla One', sans-serif;
+        color: #333333;
+    }
+
+    .slid-content h2{
+        font-size: 43px;
+        padding: 20px 0;
+        font-family: 'Poppins', sans-serif;
+        color: #333333;
+    }
+
+
+
+
+
+
+
+
+}

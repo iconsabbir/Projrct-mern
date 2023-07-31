@@ -125,3 +125,7 @@ function updatetotal(){
         
     }
 }
+
+// Side nav
+
+
